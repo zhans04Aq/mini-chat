@@ -4,7 +4,7 @@ import ChatList from './chat-list/ChatList'
 
 const List = () => {
   return (
-    <div className='flex-1'>
+    <div className='flex-1 flex flex-col'>
         <UserInfo/>
         <ChatList/>
     </div>
