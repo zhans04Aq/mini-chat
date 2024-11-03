@@ -1,4 +1,3 @@
-import React from 'react'
 
 import moreIcon from '/more.png'
 import videoIcon from '/video.png'
