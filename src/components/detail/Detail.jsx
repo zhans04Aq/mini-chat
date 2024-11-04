@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Detail() {
   return (
-    <div className='flex-1'>
+    <div className='flex-1 overflow-auto'>
       <div className="user py-7 px-5 flex flex-col items-center gap-5 border-b-2 border-[#dddddd35]">
         <img src="/avatar.png" alt="" className='w-24 h-24 object-cover rounded-full'/>
         <h2>Artay Marat</h2>

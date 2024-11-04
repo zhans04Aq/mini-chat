@@ -4,6 +4,7 @@ import searchIcon from '/search.png'
 import plusIcon from '/plus.png'
 import minusIcon from '/minus.png'
 import avatarIcon from '/avatar.png'
+import { AddUser } from './addUser/AddUser'
 
 const ChatList = () => {
 
@@ -50,6 +51,9 @@ const ChatList = () => {
                 <p className='text-sm'>Hello</p>
             </div>
         </div>
+        {
+            addMode && <AddUser/>
+        }
     </div>
   )
 }
