@@ -19,7 +19,7 @@ export const AddUser = () => {
         <div className='user mt-12 flex items-center justify-between'>
             <div className="detail flex items-center gap-5">
                 <img src="/avatar.png " alt="" className='w-12 h-12 rounded-full object-cover'/>
-                <span className="username">Sultan Mecheev</span>
+                <span className="username">Sultan Mecheev murt koti kurttt</span>
             </div>
             <button className='px-4 py-2 rounded-lg bg-blue-800 text-white border-none'>+</button>
         </div>

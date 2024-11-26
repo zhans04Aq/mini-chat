@@ -9,7 +9,7 @@ import { LogIn } from './components/login/LogIn'
 
 function App() {
 
-  const user = true
+  const user = false
 
   return (
     <div className='h-[90vh] w-[90vw] px-4 py-8 bg-blue-900 backdrop-blur-lg backdrop-saturate-200 bg-opacity-70 rounded-xl flex'>
